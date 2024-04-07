@@ -1,7 +1,7 @@
 # tvshow_backend
 
 
-## Poetry
+## Getting started - poetry
 
 This project uses poetry. It's a modern dependency management
 tool.
@@ -28,6 +28,12 @@ With the configured host, the link will be: http://127.0.0.1:8000/api/docs
 From there, you can engage with all available endpoints. The database, it is pre-filled with 10 entries.
 
 You can read more about poetry here: https://python-poetry.org/
+
+# Side note: On macOS, you are required to create a virtual environment before running `install.sh` and `run.sh`.
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+```
 
 ## Project structure
 
