@@ -20,7 +20,7 @@ bash run.sh
 ```
 This will start the server on the configured host.
 
-##Important
+## Important
 
 You can **interact** with the api and find the swagger documentation at `/api/docs`. 
 With the configured host, the link will be: http://127.0.0.1:8000/api/docs
@@ -29,7 +29,7 @@ From there, you can engage with all available endpoints. The database, it is pre
 
 You can read more about poetry here: https://python-poetry.org/
 
-### Side note: On macOS, you are required to create a virtual environment before running `install.sh` and `run.sh`.
+#### Side note: On macOS, you are required to create a virtual environment before running `install.sh` and `run.sh`.
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
