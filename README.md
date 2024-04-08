@@ -7,13 +7,13 @@ This project uses poetry. It's a modern dependency management
 tool.
 
 
-To set up the project use this set of command:
+To set up the project use this command:
 
 ```bash
 bash install.sh
 ```
 
-To run the project use this set of commands:
+To run the project use this command:
 
 ```bash
 bash run.sh
@@ -125,6 +125,25 @@ This project is a RESTful API for managing a collection of TV shows. It's built 
   - Deletes the TV show with the specified ID.
   - Returns a 204 status code on successful deletion.
   - Returns a 404 status code if the TV show is not found.
+ 
+### TV Show Model Table
+
+This table represents a model for TV shows. It includes various attributes.
+
+| Field        | Type           | Description                                         |
+|--------------|----------------|-----------------------------------------------------|
+| show_id      | int            | Unique identifier for each TV show (Primary Key).   |
+| type         | str            | Type of the TV show (e.g., series, documentary).    |
+| genre        | str            | Genre of the TV show (e.g., drama, comedy).         |
+| title        | str            | Title of the TV show.                               |
+| director     | str            | Director(s) of the TV show.                         |
+| cast         | str            | Cast of the TV show.                                |
+| country      | str            | Country of origin for the TV show.                  |
+| date_added   | str            | Date when the TV show was added to the database.    |
+| release_year | int            | Year when the TV show was released.                 |
+| rating       | str            | Rating of the TV show (e.g., PG, TV-MA).            |
+| duration     | str            | Duration of each episode of the TV show.            |
+
 
 ### Improvements for Real-World Scenarios
 
