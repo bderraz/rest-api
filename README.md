@@ -59,7 +59,7 @@ tvshow_backend
 
 ## Running tests
 
-For running tests on your local machine, simpley run:
+For running tests on your local machine, run:
 
 1. Run the pytest.
 ```bash
