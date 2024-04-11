@@ -103,7 +103,7 @@ This project is a RESTful API for managing a collection of TV shows. It's built 
 #### Search TV show by genre
 
 - **Method:** GET
-- **Endpoint:** `/search/{genre}`
+- **Endpoint:** `/genre/{genre}`
 - **Description:**
   - Returns a list of TV shows that match the specified genre.
   - Returns a 200 status code on success.
